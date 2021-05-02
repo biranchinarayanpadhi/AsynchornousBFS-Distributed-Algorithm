@@ -1,0 +1,58 @@
+number of Process ->8
+uidArray ->[1, 2, 3, 4, 5, 6, 7, 8]
+rootId is 1
+Message from 1 to 2
+Message from 2 to 8
+Message from 8 to 7
+Message from 1 to 5
+Message from 5 to 6
+Message from 7 to 6
+Message from 2 to 3
+Message from 6 to 7
+Message from 7 to 4
+Message from 4 to 2
+Message from 8 to 3
+Message from 2 to 4
+Message from 5 to 4
+Message from 4 to 5
+Reject message from 2 to 4
+Reject message from 7 to 6
+Reject message from 5 to 4
+Message from 3 to 8
+Reject message from 8 to 3
+Done message from 6 to 5
+Reject message from 6 to 7
+Done message from 4 to 7
+Reject message from 3 to 8
+Done message from 7 to 8
+Message from 4 to 5
+Message from 4 to 7
+Done message from 3 to 2
+Done message from 8 to 2
+Reject message from 5 to 4
+Reject message from 7 to 4
+Reject message from 4 to 5
+Done message from 4 to 2
+Done message from 5 to 1
+Done message from 2 to 1
+Terminate Processes Flag is set
+Process with ID 1 terminating. Its children are [5, 2] Number of message from process 1 is 1
+Process with ID 5 terminating. Its children are [6] Number of message from process 5 is 5
+Process with ID 6 terminating. Its children are [] Number of message from process 6 is 3
+Process with ID 2 terminating. Its children are [3, 8, 4] Number of message from process 2 is 5
+Process with ID 8 terminating. Its children are [7] Number of message from process 8 is 4
+Process with ID 4 terminating. Its children are [] Number of message from process 4 is 7
+Process with ID 3 terminating. Its children are [] Number of message from process 3 is 3
+Process with ID 7 terminating. Its children are [] Number of message from process 7 is 5
+Number of messages for terminate all processes = 7
+---------------------------------------------------------------------------
+total number of messages is  = 40
+---------BFS tree traversal displayed as list---------------------------
+1 5 2 6 3 8 4 7
+---------BFS tree displayed with Levels---------------------------
+
+Level 0 : 1
+Level 1 : 5 2
+Level 2 : 6 3 8 4
+Level 3 : 7
+---------------------------------------------------------------------------
