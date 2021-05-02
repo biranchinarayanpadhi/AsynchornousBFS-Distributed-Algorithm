@@ -7,28 +7,6 @@
  * Siddarameshwar Kadagad  -  sxk190071
  *
  This file contains the Process class for the Asynchronous BFS algorithm, and the algorithm for asynchronous BFS algorithm in asynchronous distributed system
- *Contribution---------------------------------:
- * @Manasa M Bhat
- * -Introducing logic for making sure child terminates after parent termiantes
- * -buildBFS Sequential and Level Order Traversal
- * -Adding delays for sending ACK/NACK 
- * -logic for managing Test Messages 
- *
- * @Biranchi Narayan Padhi
- * -AsynchBFS and Process class Structure
- * -Introducing delays to simulate Asynchronous Nature
- * -Sending Message to Neighbors 
- * -termiantion process logic
- * 
- *
- * @Siddarameshwar Kadagad
- * -AsynchBFS logic implementation
- * -Managing ACK/NACK Messages for process
- * -logic for  total number of messages
- * -CountDownLatch in master thread
- * 
- * -----------------------------------------------
- *
  */
 
 import java.util.ArrayList;

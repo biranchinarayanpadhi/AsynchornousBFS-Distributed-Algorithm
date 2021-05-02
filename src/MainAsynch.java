@@ -5,17 +5,6 @@
  * Biranchi Narayan Padhi  - bxp200001
  * Manasa M Bhat           - mmb190005
  * Siddarameshwar Kadagad  -  sxk190071
- *Contribution---------------------------------:
- * @Manasa M Bhat
- * -Threads and Process initialization
- *
- * @Biranchi Narayan Padhi
- * -Input file extraction
- * -Creating Adjacency Matrix and add neighbors to processes from adjacency matrix
- *
- * @Siddarameshwar Kadagad
- * -constructAsynchBFS fucntion definition and rootID identification
- * -----------------------------------------------
  This file contains the initialization and input processing
  */
 

@@ -7,9 +7,6 @@
  * Siddarameshwar Kadagad  -  sxk190071
  *
  This file contains the message class for test,ack and nack messages
- *contribution-------------------------
- *Biranchi Narayan Padhi : bxp200001
- *-Message class Structure
  */
 public class Message{
     
